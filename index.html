@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Brooklyn Fest</title>
+  </head>
+<body>
+
+  <!-- Nav Bar without logo I have to add the logo -->
+  <section class="Nav-bar">
+  <div class="logo">
+    <img src="./styles/Images/logo1-min.png" class="logo-img-top" alt="background image">
+  </div>
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#slider">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#news">News</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#movies">Movies</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#form">Register Now</a>
+    </li>
+  </ul>
+  </section>
+
+  
+  <!-- Carousel files -->
+  <section class="slider" id="slider">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./styles/Images/background_1.png" class="d-block w-100" alt="background image">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>BROOKLYN FILM FESTIVAL. <br>AUGUST 5TH TO 8TH @BROOKLYN BRIDGE PARK.</h1>
+          <button type="button" class="btn btn-link">Register Here</button>
+          <button type="button" class="btn btn-link">Choose your movies</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./styles/Images/background_2.png" class="d-block w-100" alt="background image">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>BROOKLYN FILM FESTIVAL. <br>AUGUST 5TH TO 8TH @BROOKLYN BRIDGE PARK.</h1>
+          <button type="button" class="btn btn-link">Register Here</button>
+          <button type="button" class="btn btn-link">Choose your movies</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./styles/Images/background_3.png" class="d-block w-100" alt="background image">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>BROOKLYN FILM FESTIVAL. <br>AUGUST 5TH TO 8TH @BROOKLYN BRIDGE PARK.</h1>
+          <button type="button" class="btn btn-link">Register Here</button>
+          <button type="button" class="btn btn-link">Choose your movies</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+<!-- About using Card -->
+  <section class="about" id="about">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">About</h2>
+      <p class="card-text">With 5,000 people, Brooklyn Outdoor Film Festival is going to show movies at Brooklyn Bridge Park this year, from August 5th through 8th, from 6pm to midnight!</p>
+    </div>
+    <img src="./styles/Images/crowd-min.jpg" class="card-img-bottom" alt="...">
+  </div>
+  </section>
+
+<!-- 1. h2: movies 2. Btns -->
+<section class="movies" id="news">
+<h2 class="card-title">Movies</h2>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#day-1">1</a></li>
+    <li class="page-item"><a class="page-link" href="#day-2">2</a></li>
+    <li class="page-item"><a class="page-link" href="#day-3">3</a></li>
+    <li class="page-item"><a class="page-link" href="#day-4">Next</a>
+    </li>
+  </ul>
+</nav>
+
+<!--movies using card-->
+<div class="card-deck" id="day-1">
+  <div class="card">
+    <img src="./styles/Images/m-1-min.png" class="card-img-top" alt="movies">
+    <div class="card-body">
+      <h3 class="card-title">Boheian Rhapsody <br> 2018</h3>
+      <p class="card-text">Bohemian Rhapsody is a foot-stomping celebration of Queen, their music and their extraordinary lead singer Freddie Mercury.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a class="btn btn-primary" href="https://www.imdb.com/title/tt1727824/" target= "_blank"role="button">Details</a></small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./styles/Images/m-1-min.png" class="card-img-top" alt="movies">
+    <div class="card-body">
+      <h3 class="card-title">Boheian Rhapsody <br> 2018</h3>
+      <p class="card-text">Bohemian Rhapsody is a foot-stomping celebration of Queen, their music and their extraordinary lead singer Freddie Mercury.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a class="btn btn-primary" href="https://www.imdb.com/title/tt1727824/"  target= "_blank" role="button">Details</a></small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="./styles/Images/m-1-min.png" class="card-img-top" alt="movies">
+    <div class="card-body">
+      <h3 class="card-title">Boheian Rhapsody <br> 2018</h3>
+      <p class="card-text">Bohemian Rhapsody is a foot-stomping celebration of Queen, their music and their extraordinary lead singer Freddie Mercury.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a class="btn btn-primary" href="https://www.imdb.com/title/tt1727824/"  target= "_blank" role="button">Details</a></small>
+    </div>
+  </div>
+</section>
+
+<!--news using card-->
+  <section class="news" id="news">
+  <h2>News</h2>
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-3">
+      <div class="card-body">
+          <h3 class="card-title">Pre-Registration is open</h3>
+            <small class="text-muted">30 March, 2019</small>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <small class="text-muted"><a class="btn btn-primary" href="https://www.imdb.com/title/tt1727824/"  target= "_blank" role="button">Details</a></small>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card-body">
+            <h3 class="card-title">Pre-Registration is open</h3>
+              <small class="text-muted">30 March, 2019</small>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <small class="text-muted"><a class="btn btn-primary" href="https://www.imdb.com/title/tt1727824/"  target= "_blank" role="button">Details</a></small>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card-body">
+              <h3 class="card-title">Pre-Registration is open</h3>
+                <small class="text-muted">30 March, 2019</small>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <small class="text-muted"><a class="btn btn-primary" href="https://www.imdb.com/title/tt1727824/"  target= "_blank" role="button">Details</a></small>
+            </div>
+          </div>
+        </div>
+</section>
+<!--Contact us using card-->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img src="./styles/Images/facebook.jpg" alt="facebook" style="width:10%"></a>
+  <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><img src="./styles/Images/instagrm.jpg" alt="instagram" style="width:10%"></a>
+  <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><img src="./styles/Images/twitter.png" alt="twitter" style="width:10%"></a>
+</section>
+<!--Form-->
+<section class="register" id="form">
+<h2>Register Here!</h2>
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationTooltip01">First name</label>
+      <input type="text" class="form-control" id="validationTooltip01" value="First Name" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="validationTooltip02">Last name</label>
+      <input type="text" class="form-control" id="validationTooltip02" value="Last Name" required>
+      <div class="valid-tooltip">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationTooltip03">City</label>
+      <input type="text" class="form-control" id="validationTooltip03" required>
+      <div class="invalid-tooltip">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip04">State</label>
+      <select class="custom-select" id="validationTooltip04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>Dhaka</option>
+        <option>Rajshahi</option>
+        <option>Khulna</option>
+      </select>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip05">Zip</label>
+      <input type="text" class="form-control" id="validationTooltip05" required>
+      <div class="invalid-tooltip">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip06">Email</label>
+      <input type="email" class="form-control" id="validationTooltip06" required>
+      <div class="invalid-tooltip">
+        Please provide an Email.
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationTooltip07">State</label>
+      <select class="custom-select" id="validationTooltip07" required>
+        <option selected disabled value="">Choose...</option>
+        <option>Day-1</option>
+        <option>Day-2</option>
+        <option>Day-3</option>
+      </select>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+</section>
+
+<!--Footers-->
+<footer>
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Important Links</h3>
+        <ul class="footer-nav">
+          <li><a href="#news">Brooklyn News</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Brooklyn_Bridge" target="_blank"> Brooklyn Bridge</a></li>
+          <li><a href="#movies" target="_blank"> Brookly Fest Movies</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="col mb-3">
+      <div class="card-body">
+        <h3 class="card-title">Our hours</h3>
+        <ul class="footer-hours">
+          <li>Monday: 9am - 5pm</li>
+          <li>Saturday: 10am - 4pm</li>
+          <li>Sunday: Closed</li>
+        </ul>
+        </div>
+    </div>
+    <div class="col mb-3">
+      <div class="card-body">
+        <h3> Service area</h3>
+        <ul class="footer-address">
+          <li>City, State, 0000</li>
+          <li>City, State, 0000</li>
+          <li>City, State, 0000</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col mb-3">
+    <div class="card-body">
+      <p class="copy">&copy; Brooklyn Film Festival.</p>
+    </div>
+  </div>
+</footer> 
+
+
+<!-- Js file links -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+</body>
+</html>
